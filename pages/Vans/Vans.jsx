@@ -47,9 +47,9 @@ export default function Vans() {
                 <button className="van-type ruggged" onClick={() => setSearchParams("type=rugged")} >Rugged</button>
                 <button className="van-type clear-filters" onClick={() => setSearchParams("")} >Clear</button> */}
 
-                <button className="van-type simple" onClick={() => setSearchParams({ type: "simple" })} >Simple</button>
-                <button className="van-type luxury" onClick={() => setSearchParams({ type: "luxury" })} >Luxury</button>
-                <button className="van-type ruggged" onClick={() => setSearchParams({ type: "rugged" })} >Rugged</button>
+                <button className={`van-type simple ${typeFilter === "simple" ? "selected" :""}`} onClick={() => setSearchParams({ type: "simple" })} >Simple</button>
+                <button className={`van-type luxury ${typeFilter === "luxury" ? "selected" :""}`} onClick={() => setSearchParams({ type: "luxury" })} >Luxury</button>
+                <button className={`van-type rugged ${typeFilter === "rugged" ? "selected" :""}`} onClick={() => setSearchParams({ type: "rugged" })} >Rugged</button>
                 {typeFilter ? (
                     <button
                         className="van-type clear-filters"
