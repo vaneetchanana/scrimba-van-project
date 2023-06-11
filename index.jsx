@@ -17,6 +17,7 @@ import Layout from "./components/Layout"
 import HostLayout from "./components/HostLayout"
 
 import "./server"
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -27,7 +28,6 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="vans" element={<Vans />} />
           <Route path="vans/:id" element={<VanDetail />} />
-          
           <Route path="host" element={<HostLayout />}>
             <Route index element={<Dashboard />} />
             <Route path="income" element={<Income />} />
@@ -39,6 +39,7 @@ function App() {
               <Route path="photos" element={<HostVanPhotos />} />
             </Route>
           </Route>
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
