@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
-import Vans from "./pages/Vans/Vans"
+import Vans, {loader as vansLoader} from "./pages/Vans/Vans"
 import VanDetail from "./pages/Vans/VanDetail"
 import Dashboard from "./pages/Host/Dashboard"
 import Income from "./pages/Host/Income"
@@ -22,7 +22,7 @@ const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<Layout />}>
     <Route index element={<Home />} />
     <Route path="about" element={<About />} />
-    <Route path="vans" element={<Vans />} />
+    <Route path="vans" loader={vansLoader} element={<Vans />} />
     <Route path="vans/:id" element={<VanDetail />} />
     <Route path="host" element={<HostLayout />}>
       <Route index element={<Dashboard />} />
