@@ -47,13 +47,6 @@ when someone clicks on a van from /host/vans.
 
 
 
-
-
-
-
-
-
-
 2. You'll need to add an Outlet to the HostVanDetail.jsx file, since 
 that's where the nested views will be displayed. The "Details" view,
 which is automatically displayed when the user reaches /host/vans/:id,
