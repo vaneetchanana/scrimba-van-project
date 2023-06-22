@@ -7,6 +7,7 @@ html, body {
     padding: 0;
     background-color: #FFF7ED;
     font-family: "Inter", sans-serif;
+    /* max-width: 500px; */
 }
 
 a {
@@ -114,6 +115,10 @@ footer {
     transform: translate(1px, 1px);
 }
 
+/* .main {
+    height: 100;
+} */
+
 /*** HOME PAGE ***/
 .home-container {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("./assets/images/home-hero.png") no-repeat center center;
@@ -124,6 +129,12 @@ footer {
     min-height: 350px;
     color: white;
     padding: 45px 23px;
+    height: 100%;
+}
+
+.home-container div {
+    max-width: 940px;
+    margin: auto;
 }
 
 .home-container h1 {
@@ -216,8 +227,10 @@ footer {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     gap: 34px;
-    margin-top: 57px;
+    margin: 57px 0;
 }
+
+
 
 .van-tile a {
     color: #161616;
@@ -230,7 +243,7 @@ footer {
 }
 
 .van-list-container button {
-    margin-right: 20px;
+    margin-right: 16px;
     cursor: pointer;
 }
 
