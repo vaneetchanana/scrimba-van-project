@@ -80,7 +80,7 @@ nav {
 
 main {
     flex : 1;
-    margin: 64px 0;
+    margin-bottom: 64px;
 }
 
 footer {
