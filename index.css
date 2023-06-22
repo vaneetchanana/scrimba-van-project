@@ -134,7 +134,7 @@ footer {
 
 .home-container div {
     max-width: 940px;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .home-container h1 {
@@ -249,7 +249,7 @@ footer {
 
 .van-type {
     height: 34px;
-    padding: 6px 26px;
+    padding: 6px 20px;
     font-style: normal;
     font-weight: 500;
     border: none;
@@ -301,8 +301,16 @@ i[class*='van-type-'] {
 }
 
 .van-detail-container {
+    margin-bottom: 57px;
     padding-inline: 27px;
 }
+
+@media (min-width: 768px) {
+    .van-detail-container {
+        width: 50%;
+        margin: 0 auto 57px;
+    }
+  }
 
 .van-detail-container .back-button {
     color: black;
