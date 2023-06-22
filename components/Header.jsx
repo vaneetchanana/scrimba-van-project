@@ -9,7 +9,7 @@ export default function Header() {
     }
     
     return (
-        <header>
+        <header >
             <Link className="site-logo" to="/">#VanLife</Link>
             <nav>
                 <NavLink 
@@ -30,12 +30,12 @@ export default function Header() {
                 >
                     Vans
                 </NavLink>
-                <Link to="login" className="login-link">
+                <NavLink to="login" className="login-link">
                     <img 
                         src="../assets/images/avatar-icon.png" 
                         className="login-icon"
                     />
-                </Link>
+                </NavLink>
             </nav>
         </header>
     )
