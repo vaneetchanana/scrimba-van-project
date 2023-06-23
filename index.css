@@ -181,7 +181,7 @@ footer {
 /*** ABOUT PAGE ***/
 
 .about-page-container {
-    max-width: 940px;
+    max-width: 768px;
     width: 90%;
     margin: auto;
 }
@@ -221,6 +221,7 @@ footer {
 .about-page-cta h2 {
     margin: 0;
     padding-block: 37px;
+    font-size: 1rem;
 }
 
 .about-page-cta .link-button {
@@ -232,7 +233,10 @@ footer {
 
 /*** VAN PAGES ***/
 .van-list-container {
-    padding-inline: 23px
+    /* padding-inline: 23px; */
+    width: 90%;
+    max-width: 769px;
+    margin: auto;
 }
 
 .van-list-filter-buttons {
@@ -326,12 +330,16 @@ i[class*='van-type-'] {
 }
 
 .van-detail-container {
-    padding-inline: 27px;
+    /* padding-inline: 27px; */
+    width: 90%;
+    max-width: 768px;
+    margin: auto;
 }
 
 .van-detail-container .back-button {
     color: black;
     text-decoration: none;
+    margin-top: 32px;
 }
 
 .van-detail-container .back-button:visited {}
@@ -589,15 +597,15 @@ i[class*='van-type-'] {
         margin: 0 auto;
     } */
 
-    .van-list-container {
+    /* .van-list-container {
         max-width: 50%;
         margin: 0 auto;
-    }
+    } */
 
-    .van-detail-container {
+    /* .van-detail-container {
         width: 50%;
         margin: 0 auto;
-    }
+    } */
 
 
 }
