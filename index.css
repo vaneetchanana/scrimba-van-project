@@ -179,12 +179,16 @@ footer {
 
 
 /*** ABOUT PAGE ***/
-.about-hero-image {
-    max-width: 100%;
-}
 
 .about-page-container {
-    margin-bottom: 57px;
+    width: 100%;
+    margin: auto;
+}
+
+.about-hero-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-inline: 27px;
 }
 
 
@@ -582,7 +586,7 @@ i[class*='van-type-'] {
 
     .about-page-container {
         max-width: 50%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
 
     .van-list-container {
