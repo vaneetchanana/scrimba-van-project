@@ -134,6 +134,7 @@ footer {
     color: white;
     padding: 45px 23px;
     height: 100%;
+    display: flex;
 }
 
 /* @media (min-width: 768px) {
@@ -144,7 +145,9 @@ footer {
 } */
 
 .home-container div {
-    max-width: 940px;
+    max-width: 640px;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-container h1 {
@@ -163,9 +166,9 @@ footer {
     text-decoration: none;
     background-color: #FF8C38;
     border: none;
-    width: 100%;
+    /* width: 100%; */
     margin-top: 27px;
-    padding-block: .75rem;
+    padding: .75rem;
     color: white;
     font-weight: 700;
     border-radius: 5px;
@@ -181,7 +184,7 @@ footer {
 /*** ABOUT PAGE ***/
 
 .about-page-container {
-    max-width: 768px;
+    max-width: 640px;
     width: 90%;
     margin: auto;
 }
@@ -235,7 +238,7 @@ footer {
 .van-list-container {
     /* padding-inline: 23px; */
     width: 90%;
-    max-width: 769px;
+    max-width: 640px;
     margin: auto;
 }
 
@@ -332,7 +335,7 @@ i[class*='van-type-'] {
 .van-detail-container {
     /* padding-inline: 27px; */
     width: 90%;
-    max-width: 768px;
+    max-width: 640px;
     margin: auto;
 }
 
@@ -602,10 +605,8 @@ i[class*='van-type-'] {
         margin: 0 auto;
     } */
 
-    /* .van-detail-container {
+    /* .home-container div {
         width: 50%;
-        margin: 0 auto;
+        margin: auto;
     } */
-
-
 }
