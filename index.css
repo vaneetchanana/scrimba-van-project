@@ -80,7 +80,7 @@ nav {
 
 main {
     flex : 1;
-    margin-bottom: 64px;
+    margin-bottom: 32px;
 }
 
 footer {
@@ -181,20 +181,20 @@ footer {
 /*** ABOUT PAGE ***/
 
 .about-page-container {
-    width: 100%;
+    max-width: 940px;
+    width: 90%;
     margin: auto;
 }
 
 .about-hero-image {
-    max-width: 100%;
+    width: 100%;
     border-radius: 5px;
-    margin-inline: 27px;
 }
 
 
 
 .about-page-content {
-    padding-inline: 23px;
+    /* padding-inline: 23px; */
     color: #161616;
     margin-bottom: 32px;
 }
@@ -214,7 +214,7 @@ footer {
     color: #161616;
     padding-inline: 32px;
     padding-bottom: 32px;
-    margin-inline: 27px;
+    /* margin-inline: 27px; */
     border-radius: 5px;
 }
 
@@ -584,10 +584,10 @@ i[class*='van-type-'] {
 
     }
 
-    .about-page-container {
+    /* .about-page-container {
         max-width: 50%;
-        /* margin: 0 auto; */
-    }
+        margin: 0 auto;
+    } */
 
     .van-list-container {
         max-width: 50%;
